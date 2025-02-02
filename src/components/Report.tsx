@@ -2,16 +2,16 @@ import { FaArrowRightLong } from "react-icons/fa6"
 
 const Report = () => {
   return (
-    <div className='relative my-40 px-24'>
+    <div className='relative md:my-40 mt-24 md:px-24 px-7'>
       <img src='/assets/report-abstract-bg.png' alt='Hortes' className='pointer-events-none absolute -top-64 left-1/2 -translate-x-1/2 w-[90%]' />
       <div>
-        <h1 className='text-white font-medium text-5xl text-center leading-[4.5rem]'>Reports to answer <br /> any question</h1>
-        <div className='mt-20'>
-          <div className='flex gap-10'>
+        <h1 className='text-white font-medium md:text-5xl text-4xl md:text-center md:leading-[4.5rem] leading-[3.9rem]'>Reports to answer <br /> any question</h1>
+        <div className='md:mt-20 mt-12'>
+          <div className='flex md:flex-row flex-col md:gap-10 gap-7'>
             <div className='relative flex-1'>
               <div className='absolute inset-0 border-2 border-transparent rounded-3xl before:absolute before:inset-0 before:rounded-3xl before:border-2 before:border-white before:opacity-50 before:[mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] before:[-webkit-mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] pointer-events-none' />
-              <div className='bg-[#101011] rounded-3xl p-10 text-white flex flex-col h-full'>
-                <div className='flex-1'>
+              <div className='bg-[#101011] rounded-3xl md:p-10 p-7 text-white flex flex-col h-full'>
+                <div className='flex-1 md:pb-0 pb-24'>
                   <img src='/assets/pointer.png' alt='Hortes' className='w-12 pointer-events-none' />
                 </div>
                 <div>
@@ -31,11 +31,11 @@ const Report = () => {
               </div>
             </div>
           </div>
-          <div className='mt-10 flex gap-10'>
+          <div className='md:mt-10 mt-7 flex md:flex-row flex-col-reverse md:gap-10 gap-7'>
             <div className='relative flex-1'>
               <div className='absolute inset-0 border-2 border-transparent rounded-3xl before:absolute before:inset-0 before:rounded-3xl before:border-2 before:border-white before:opacity-50 before:[mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] before:[-webkit-mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] pointer-events-none' />
               <div className='bg-[#101011] rounded-3xl text-white h-full flex flex-col'>
-                <div className='flex-1 p-10'>
+                <div className='flex-1 md:p-10 p-7'>
                   <p className='opacity-50 text-sm'>Last year</p>
                   <h1 className='font-medium text-3xl mt-4'>78,50K Users</h1>
                 </div>
@@ -44,8 +44,8 @@ const Report = () => {
             </div>
             <div className='relative flex-1'>
               <div className='absolute inset-0 border-2 border-transparent rounded-3xl before:absolute before:inset-0 before:rounded-3xl before:border-2 before:border-white before:opacity-50 before:[mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] before:[-webkit-mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] pointer-events-none' />
-              <div className='bg-[#101011] rounded-3xl p-10 text-white flex flex-col h-full'>
-                <div className='flex-1'>
+              <div className='bg-[#101011] rounded-3xl md:p-10 p-7 text-white flex flex-col h-full'>
+                <div className='flex-1 md:pb-0 pb-24'>
                   <img src='/assets/chart.png' alt='Hortes' className='w-12 pointer-events-none' />
                 </div>
                 <div>
@@ -58,11 +58,11 @@ const Report = () => {
               </div>
             </div>
           </div>
-          <div className='flex gap-10 mt-10'>
+          <div className='flex md:flex-row flex-col md:gap-10 gap-7 md:mt-10 mt-7'>
             <div className='relative flex-1'>
               <div className='absolute inset-0 border-2 border-transparent rounded-3xl before:absolute before:inset-0 before:rounded-3xl before:border-2 before:border-white before:opacity-50 before:[mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] before:[-webkit-mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] pointer-events-none' />
-              <div className='bg-[#101011] rounded-3xl p-10 text-white flex flex-col h-full'>
-                <div className='flex-1'>
+              <div className='bg-[#101011] rounded-3xl md:p-10 p-7 text-white flex flex-col h-full'>
+                <div className='flex-1 md:pb-0 pb-24'>
                   <img src='/assets/eye.png' alt='Hortes' className='w-12 pointer-events-none' />
                 </div>
                 <div>
@@ -77,7 +77,7 @@ const Report = () => {
             <div className='flex flex-col gap-5 flex-1'>
               <div className='relative'>
                 <div className='absolute inset-0 border-2 border-transparent rounded-3xl before:absolute before:inset-0 before:rounded-3xl before:border-2 before:border-white before:opacity-50 before:[mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] before:[-webkit-mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] pointer-events-none' />
-                <div className='bg-[#101011] rounded-3xl p-7 text-white flex items-center gap-10 justify-between'>
+                <div className='bg-[#101011] rounded-3xl p-7 text-white flex xl:flex-row flex-col xl:items-center gap-10 justify-between'>
                   <div>
                     <h2 className='font-medium'>05 - Racer</h2>
                     <p className='opacity-50 text-sm mt-3'>Retained on and after month</p>
@@ -88,7 +88,7 @@ const Report = () => {
               </div>
               <div className='relative'>
                 <div className='absolute inset-0 border-2 border-transparent rounded-3xl before:absolute before:inset-0 before:rounded-3xl before:border-2 before:border-white before:opacity-50 before:[mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] before:[-webkit-mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] pointer-events-none' />
-                <div className='bg-[#101011] rounded-3xl p-7 text-white flex items-center gap-10 justify-between'>
+                <div className='bg-[#101011] rounded-3xl p-7 text-white flex xl:flex-row flex-col xl:items-center gap-10 justify-between'>
                   <div>
                     <h2 className='font-medium'>02 - Racer</h2>
                     <p className='opacity-50 text-sm mt-3'>Retained on and after month</p>
@@ -99,7 +99,7 @@ const Report = () => {
               </div>
               <div className='relative'>
                 <div className='absolute inset-0 border-2 border-transparent rounded-3xl before:absolute before:inset-0 before:rounded-3xl before:border-2 before:border-white before:opacity-50 before:[mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] before:[-webkit-mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] pointer-events-none' />
-                <div className='bg-[#101011] rounded-3xl p-7 text-white flex items-center gap-10 justify-between'>
+                <div className='bg-[#101011] rounded-3xl p-7 text-white flex xl:flex-row flex-col xl:items-center gap-10 justify-between'>
                   <div>
                     <h2 className='font-medium'>07 - Racer</h2>
                     <p className='opacity-50 text-sm mt-3'>Retained on and after month</p>

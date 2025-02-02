@@ -2,10 +2,10 @@ import { HiOutlineDotsHorizontal } from 'react-icons/hi'
 
 const RightContent = () => {
   return (
-    <div className='flex-1'>
+    <div className='flex-1 md:mt-0 mt-16'>
       <div className='relative'>
-        <div className='absolute w-2/3 justify-self-end inset-0 border-2 border-transparent rounded-3xl before:absolute before:inset-0 before:rounded-3xl before:border-2 before:border-white before:opacity-50 before:[mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] before:[-webkit-mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] pointer-events-none' />
-        <div className='bg-[#101011] rounded-3xl p-7 w-2/3 justify-self-end'>
+        <div className='absolute xl:w-2/3 w-full justify-self-end inset-0 border-2 border-transparent rounded-3xl before:absolute before:inset-0 before:rounded-3xl before:border-2 before:border-white before:opacity-50 before:[mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] before:[-webkit-mask-image:linear-gradient(to_right,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0.03)_52%,rgba(255,255,255,0.5)_100%)] pointer-events-none' />
+        <div className='bg-[#101011] rounded-3xl p-7 xl:w-2/3 w-full justify-self-end'>
           <h2 className='text-white font-medium text-lg'>New user preferences</h2>
           <div className='flex items-center justify-between mt-7'>
             <div>

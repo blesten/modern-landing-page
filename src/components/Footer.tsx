@@ -26,13 +26,13 @@ const navLinkData = [
 
 const Footer = () => {
   return (
-    <div className='px-24 mb-10'>
-      <div className='flex items-center justify-between'>
+    <div className='md:px-24 px-7 mb-10'>
+      <div className='flex md:flex-row flex-col md:items-center justify-between'>
         <div className='flex items-center gap-4'>
           <img src='/assets/logo.png' alt='Hortes' className='w-10' />
           <h1 className='font-medium text-white text-2xl'>Hortes</h1>
         </div>
-        <div className='text-white text-sm flex items-center gap-10'>
+        <div className='text-white text-sm flex md:flex-row flex-col md:items-center md:gap-10 gap-5 md:mt-0 mt-8'>
           {
             navLinkData.map((item, idx) => (
               <NavLink
@@ -46,8 +46,8 @@ const Footer = () => {
         </div>
       </div>
       <hr className='text-white opacity-30 my-8' />
-      <div className='flex items-center justify-between'>
-        <p className='text-sm text-white opacity-50'>&copy; 2077 Hortes. All rights reserved.</p>
+      <div className='flex md:flex-row flex-col-reverse md:items-center justify-between'>
+        <p className='text-sm text-white opacity-50 md:mt-0 mt-6'>&copy; 2077 Hortes. All rights reserved.</p>
         <div className='flex items-center gap-8 text-white text-xl'>
           <FaTwitter className='cursor-pointer opacity-50 hover:opacity-100 transition' />
           <FaLinkedin className='cursor-pointer opacity-50 hover:opacity-100 transition' />
