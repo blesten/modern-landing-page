@@ -44,8 +44,8 @@ const MobileNav = ({ isOpenMobileNav, setIsOpenMobileNav }: IProps) => {
   }, [isOpenMobileNav, setIsOpenMobileNav])
   
   return (
-    <div className={`fixed top-0 left-0 right-0 bottom-0 bg-[rgba(0,0,0,.7)] md:hidden block ${isOpenMobileNav ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'} z-30`}>
-      <div ref={mobileNavRef} className='fixed top-0 right-0 h-screen w-60 bg-[#282828] p-6'>
+    <div className={`fixed top-0 left-0 right-0 bottom-0 bg-[rgba(0,0,0,.7)] md:hidden block ${isOpenMobileNav ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'} transition z-30`}>
+      <div ref={mobileNavRef} className={`fixed top-0 right-0 h-screen w-60 bg-[#282828] p-6 origin-right transition delay-150 ${isOpenMobileNav ? 'scale-x-100 pointer-events-auto' : 'scale-x-0 pointer-events-none'}`}>
         <div className='flex justify-end'>
           <AiOutlineClose onClick={() => setIsOpenMobileNav(false)} className='cursor-pointer text-white text-xl' />
         </div>
